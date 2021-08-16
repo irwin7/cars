@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Big Shoulders Display', cursive;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.cars-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cars-item{
+  width: 307px;
+  height: 500px;
+  border-radius: 8px;
+  padding: 48px;
+}
+.sedan{
+  background-color: #E28625;
+}
+.suvs{
+  background-color: #006971;
+}
+.luxury{
+  background-color: #004140;
+}
+.cars-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.cars-des{
+  width: 212px;
+  height: 125px;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 83px;
+}
+.cars-link{
+  font-family: Lexend Deca;
+  font-size: 15px;
+  line-height: 25px;
+  color: #E28625;
+  background-color: #fff;
+  padding: 11px 32px 12px 32px;
+  border-radius: 25px;
+  transition: all 0.5s;
+}
+.cars-link:hover{
+  background-color: #E28625;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.suvs{
+  color: #006971;
+}
+.suvs:hover{
+  background-color: #006971;
+}
+
+.lux{
+  color: #004140;
+}
+.lux:hover{
+  background-color: #004140;
+}
